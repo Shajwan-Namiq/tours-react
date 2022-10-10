@@ -1,8 +1,8 @@
 # Tours
 Demo https://tours-react-wine.vercel.app/
-#### html
-#### css 
+#### Html
+#### Css 
 #### React js
-#### using Api 
-#### remove data 
-#### fetching data from API
+#### Using Api 
+#### Remove data 
+#### Fetching data from API
