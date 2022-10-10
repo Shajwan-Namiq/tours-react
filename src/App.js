@@ -40,7 +40,7 @@ return (
 
   return(
   <>
- <Tours />
+ <Tours tours={tours} />
    </>
    ) 
 }
