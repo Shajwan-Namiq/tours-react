@@ -1,4 +1,5 @@
  
+import { info } from "autoprefixer";
 import { useEffect, useState } from "react";
 import "./App.css";
 import Loading from "./Loading";
@@ -43,6 +44,24 @@ return (
   </>
 );
 }
+
+
+if(tours.length === 0){
+  return (
+    <div className="flex flex-col  justify-center items-center">
+      <p className="m-5  font-bold text-xl text-slate-900">no tours left</p>
+      <button
+        className="m-5 px-10 py-3 bg-green-900 rounded-md font-bold text-white"
+        onClick={fetchTours}
+      >
+        Refresh
+      </button>
+    </div>
+  );
+}
+
+
+
 
   return (
     <>
