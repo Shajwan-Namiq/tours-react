@@ -6,8 +6,8 @@ import React from 'react'
 
    return (
      <div>
-       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-64 lg:py-20">
-         <div className="   ">
+       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-60 lg:py-10">
+         <div className="">
            <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
              <img src={image} className="object-cover w-full h-64" alt="" />
              <div className="p-5  border border-t-0">
